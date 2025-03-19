@@ -20,6 +20,9 @@ export function Hero() {
         <div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative">
           <article className="grid grid-cols-1 lg:grid-cols-2 gap-15">
             <div className="space-y-6">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-10">
+                Pet Shop Do Cachorro
+              </h1>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10">
                 Seu pet merece cuidado, carinho e atenção especial.
               </h1>

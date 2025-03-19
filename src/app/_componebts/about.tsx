@@ -35,7 +35,7 @@ export function About() {
             <h2 className="text-4xl font-bold">SOBRE</h2>
             <p>
               Aqui no PetShop Do Cachorro, somos loucos por cachorros e
-              dedicados a fazer seus amigos peludos abanarem o rabo de
+              dedicados a fazer nossos amigos peludos abanarem o rabo de
               felicidade. Fundado em 2025, nosso pet shop é o lugar onde os cães
               são tratados como verdadeiros reis e rainhas do pedaço.
             </p>
