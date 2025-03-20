@@ -2,6 +2,7 @@ import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import dogImag from "../../../public/hero-dog.webp";
 import Image from "next/image";
 import catImag from "../../../public/gato-frodo.png";
+import { FaPaw } from "react-icons/fa";
 export function Hero() {
   return (
     <main>
@@ -19,23 +20,43 @@ export function Hero() {
         </div>
         <div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative">
           <article className="grid grid-cols-1 lg:grid-cols-2 gap-15">
-            <div className="space-y-6">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-10">
-                Pet Shop Do Cachorro
+            <div
+              className="space-y-6"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <h1
+                className="text-4xl md:text-5xl lg:text-6xl font-bold leading-10"
+                data-aos="fade-down"
+              >
+                Pet Shop Do
+                <span className="text-4xl md:text-5xl lg:text-6xl ml-3">
+                  Cachorro
+                </span>
+                <FaPaw className="ml-2" />
               </h1>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10">
+              <h1
+                className="text-2xl md:text-3xl lg:text-4xl font-bold leading-10"
+                data-aos="fade-right"
+                data-aos-delay="200"
+              >
                 Seu pet merece cuidado, carinho e atenção especial.
               </h1>
-              <p className="lg:text-lg">
+              <p className="lg:text-lg" data-aos="fade-right">
                 Oferecemos os melhores serviços para garantir o bem-estar e a
                 felicidade do seu amigo de quatro patas.
               </p>
 
               <div>
                 <a
-                  href="#"
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                  target="_blank"
+                  href={
+                    "https://wa.me/5567993409716?text=Olá tudo bom? Gostaria de fala sobre}"
+                  }
                   className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center 
-                  justify-center w-fit gap-2"
+                  justify-center w-fit gap-2 "
                 >
                   <WhatsappLogo className="w-5 h-5" />
                   Contato via WhatsApp

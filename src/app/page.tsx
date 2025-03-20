@@ -1,3 +1,4 @@
+import { FaPaw } from "react-icons/fa";
 import { About } from "./_componebts/about";
 import { Footer } from "./_componebts/footer";
 import { Hero } from "./_componebts/hero";
@@ -12,6 +13,7 @@ export default function Home() {
       <Services />
       <Testimonials />
       <Footer />
+      <FaPaw />
     </main>
   );
 }
